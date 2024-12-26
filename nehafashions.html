@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NehaFashions</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #99CCFF;
+            color: #000080;
+
+           
+        }
+        header {
+            background: url('fashion-header.jpg') no-repeat center center/cover;
+            height: 100vh;
+            color: #500000;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        header h1 {
+            font-size: 4rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.5rem;
+        }
+        nav {
+            background: #333;
+            color: white;
+            padding: 0.5rem;
+            position: sticky;
+            top: 0;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: white;
+        }
+        .section {
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .section h2 {
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+        }
+        .section p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+        .clothing-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+        .clothing-gallery img {
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            border-radius: 0px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .clothing-gallery img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to NehaFashions!👚</h1>
+        <p>Your style, our passion</p>
+   </header>
+
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#clothing">Clothing</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+ 
+
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>At NehaFashions, we believe in empowering individuals with style and comfort. Our collection is curated to bring out the best in you, combining timeless designs with modern trends.</p>
+    </section>
+
+    <section id="clothing" class="section">
+        <h2>Our Clothing</h2>
+        <p>Explore our exclusive collection that caters to all your fashion needs. From casual wear to formal attire, we have something for everyone.</p>
+        <div class="clothing-gallery">
+            <img src="C:\Users\Admin\OneDrive\Documents\pint.webp" alt="Tops&Tunics">
+            <img src="C:\Users\Admin\OneDrive\Documents\jeans.webp" alt="Jeans">
+            <img src="C:\Users\Admin\Downloads\kurthas.jpeg" alt="Kurthas">
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>We would love to hear from you! Feel free to reach out for any queries or feedback.</p>
+        <p>Email: contact@nehafashions.com</p>
+        <p>Phone: +123 456 7890</p>
+    </section>
+
+    <footer>
+        &copy; 2024 NehaFashions. All Rights Reserved.
+    </footer>
+</body>
+</html>
